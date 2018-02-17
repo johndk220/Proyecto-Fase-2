@@ -1,6 +1,6 @@
  <main role="main">
-
-      <div id="myCarousel" class="carousel slide d-none d-lg-block" data-ride="carousel">
+    <meta http-equiv="content-type" content="text/html;" charset="ISO-8859-1"/>
+      <div id="myCarousel" class="carousel slide  " data-ride="carousel">
         <ol class="carousel-indicators">
           <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
           <li data-target="#myCarousel" data-slide-to="1"></li>
@@ -11,33 +11,40 @@
             <img class="first-slide" src="https://78.media.tumblr.com/de0889138e4e04816d2694ef85d5b4ca/tumblr_p3rrkliBkB1rcn198o1_1280.png" alt="First slide">
             <div class="container">
               <div class="carousel-caption text-left">
-                <center><h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="index.php?a=register" role="button">Sign up today</a></p></center>
+                <center><h1>Registrate hoy</h1>
+                <p>Esta pagina esta diseñada para ayudar y entender los deportes desde su casa.</p>
+                <p><a class="btn btn-lg btn-primary" href="index.php?a=register" role="button">Registrate</a></p></center>
               </div>
             </div>
           </div>
-          <div class="carousel-item">
+          
+           <div class="carousel-item" >
             <img class="second-slide" src="https://78.media.tumblr.com/de0889138e4e04816d2694ef85d5b4ca/tumblr_p3rrkliBkB1rcn198o1_1280.png" alt="Second slide">
+            <div class="container">
+              <div class="carousel-caption text-left">
+                <center><h1>Ya eres usuario?</h1>
+                <p></p>
+                <p><a class="btn btn-lg btn-primary" href="index.php?a=login" role="button">Entrar</a></p></center>
+              </div>
+            </div>
+          </div>
+          
+          <div class="carousel-item">
+            <img class="third-slide" src="https://78.media.tumblr.com/de0889138e4e04816d2694ef85d5b4ca/tumblr_p3rrkliBkB1rcn198o1_1280.png" alt="Third slide">
             <div class="container">
               <div class="carousel-caption">
                 <center><h1>About us.</h1>
                 <p>Bienvenido, en esta pagina le estaremos brindando los servicios en como educar a sus niños en sus casas (patio),
                   Tambien podran comunicarse con algunos de los coches de cada deporte para que tengan unentendimiento mejor para sus niños.</p>
-                <p><a class="btn btn-lg btn-primary" href="" role="button">Learn more</a></p></center>
+               
               </div>
             </div>
           </div>
-          <div class="carousel-item">
-            <img class="third-slide" src="https://78.media.tumblr.com/de0889138e4e04816d2694ef85d5b4ca/tumblr_p3rrkliBkB1rcn198o1_1280.png" alt="Third slide">
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-              </div>
-            </div>
-          </div>
+          
+          
+                
+         
+          
         </div>
         <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
           <span class="carousel-control-prev-icon" aria-hidden="true"></span>
@@ -51,86 +58,27 @@
       <br><br>
       
       
-       <main role="main">
-
-      <div id="myCarousel" class="carousel slide d-lg-none" data-ride="carousel">
-        <ol class="carousel-indicators">
-          <li data-target="#myCarousel" data-slide-to="0" class="active"></li>
-          <li data-target="#myCarousel" data-slide-to="1"></li>
-          <li data-target="#myCarousel" data-slide-to="2"></li>
-        </ol>
-        <div class="carousel-inner">
-          <div class="carousel-item active" >
-            <img class="first-slide" src="https://recruitingrealities.com/wp-content/uploads/2017/10/baseball.jpg" alt="First slide" width="480" height="350" alt="First slide">
-            <div class="container">
-              <div class="carousel-caption text-left">
-                <h1>Example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Sign up today</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="second-slide" src="https://78.media.tumblr.com/de0889138e4e04816d2694ef85d5b4ca/tumblr_p3rrkliBkB1rcn198o1_1280.png" alt="Second slide">
-            <div class="container">
-              <div class="carousel-caption">
-                <h1>Another example headline.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Learn more</a></p>
-              </div>
-            </div>
-          </div>
-          <div class="carousel-item">
-            <img class="third-slide" src="https://78.media.tumblr.com/de0889138e4e04816d2694ef85d5b4ca/tumblr_p3rrkliBkB1rcn198o1_1280.png" alt="Third slide">
-            <div class="container">
-              <div class="carousel-caption text-right">
-                <h1>One more for good measure.</h1>
-                <p>Cras justo odio, dapibus ac facilisis in, egestas eget quam. Donec id elit non mi porta gravida at eget metus. Nullam id dolor id nibh ultricies vehicula ut id elit.</p>
-                <p><a class="btn btn-lg btn-primary" href="#" role="button">Browse gallery</a></p>
-              </div>
-            </div>
-          </div>
-        </div>
-        <a class="carousel-control-prev" href="#myCarousel" role="button" data-slide="prev">
-          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-          <span class="sr-only">Previous</span>
-        </a>
-        <a class="carousel-control-next" href="#myCarousel" role="button" data-slide="next">
-          <span class="carousel-control-next-icon" aria-hidden="true"></span>
-          <span class="sr-only">Next</span>
-        </a>
-      </div>
-      <br><br>
+      
 
 
       <!-- Marketing messaging and featurettes
       ================================================== -->
       <!-- Wrap the rest of the page in another container to center all the content. -->
 
-      <div class="container marketing">
+         <div class="container marketing text-center">
 
         <!-- Three columns of text below the carousel -->
         <div class="row">
           <div class="col-lg-4">
-            <img class="rounded-circle justify-content-center" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Etiam porta sem malesuada magna mollis euismod. Nullam id dolor id nibh ultricies vehicula ut id elit. Morbi leo risus, porta ac consectetur ac, vestibulum at eros. Praesent commodo cursus magna.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <img  src="http://blog.f-i.com/wp-content/uploads/2014/06/SI_FullPage_06_ScoreBoard.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Score </h2>
+            <p>pronto podremos cosas</p>
+            <p><a class="btn btn-secondary" href="http://espndeportes.espn.com/" role="button">Learn</a></p>
           </div><!-- /.col-lg-4 -->
           <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Duis mollis, est non commodo luctus, nisi erat porttitor ligula, eget lacinia odio sem nec elit. Cras mattis consectetur purus sit amet fermentum. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
-          </div><!-- /.col-lg-4 -->
-          <div class="col-lg-4">
-            <img class="rounded-circle" src="data:image/gif;base64,R0lGODlhAQABAIAAAHd3dwAAACH5BAAAAAAALAAAAAABAAEAAAICRAEAOw==" alt="Generic placeholder image" width="140" height="140">
-            <h2>Heading</h2>
-            <p>Donec sed odio dui. Cras justo odio, dapibus ac facilisis in, egestas eget quam. Vestibulum id ligula porta felis euismod semper. Fusce dapibus, tellus ac cursus commodo, tortor mauris condimentum nibh, ut fermentum massa justo sit amet risus.</p>
-            <p><a class="btn btn-secondary" href="#" role="button">View details &raquo;</a></p>
+            <img class="rounded-circle" src="https://www.weedstream.net/wp-content/uploads/2018/01/SPORTS.jpg" alt="Generic placeholder image" width="140" height="140">
+            <h2>Noticias</h2>
+            <p>Pronto en poner mas noticias</p>
+            <p><a class="btn btn-secondary" href="#" role="button">for more info</a></p>
           </div><!-- /.col-lg-4 -->
         </div><!-- /.row -->
-
-
-
-      </div><!-- /.container -->
