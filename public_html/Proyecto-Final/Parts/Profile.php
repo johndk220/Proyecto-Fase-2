@@ -1,6 +1,3 @@
-<!DOCTYPE html>
-<html>
-<head>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <style>
 .card {
@@ -25,7 +22,7 @@ button {
   background-color: #000;
   text-align: center;
   cursor: pointer;
-  width: 100%;
+ 
   font-size: 18px;
 }
 
@@ -46,27 +43,28 @@ button:hover, a:hover {
 
 <div class="card">
  <?php
-  echo '<center><img src= "https://intropulse.com/images/default.png"' . ' style="width:50%"></center>';
-  echo  $loggedUser->username;
+  echo '<center><img src= "https://intropulse.com/images/default.png"' . ' style="width100%"></center>';
+  
   echo '<h1>' . $loggedUser->first_name . '<br>' . $loggedUser->last_name . '</h1>';
   ?>
   <p class="title">baloncesto, tennis , volleyball</p>
-  <p></p>
-  <div style="margin: 24px 0;">
+  
+  <div style="margin: 20px 0;">
     <a href="index.php?a=volley"><i class="fa fa-dribbble"></i></a> 
     <a href="#"><i class="fa fa-twitter"></i></a>  
     <a href="#"><i class="fa fa-linkedin"></i></a>  
     <a href="#"><i class="fa fa-facebook"></i></a> 
  </div>
   <?php
-  
- echo '<p><button>'. $loggedUser->email .'</button></p>';
-  echo '<p><button>'. $loggedUser->id .'</button></p>';
+  echo '<button >'. $loggedUser->username .'</button>';
+  echo '<div style="height: 5px;font-size:1px;">&nbsp</div>';
+ echo '<button>'. $loggedUser->email .'</button>';
+ echo '<div style="height: 5px;font-size:1px;">&nbsp</div>';
   
   ?>
- <p><button>Contact</button></p>
- <p><button>Crear Cita</button></p>
+ <button onclick="location.href='index.php?a=contacto'" type= "button">Contact</button>
+ <div style="height: 5px;font-size:1px;">&nbsp</div>
+ <button onclick="location.href='index.php?a=cita'" type= "button">Crear Cita</button>
  </div>
 </body>
-</html>
 
