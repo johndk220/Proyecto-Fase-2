@@ -1,11 +1,10 @@
 
 <nav aria-label="Page navigation example">
   <ul class="pagination justify-content-center">
-    <li class="page-item disabled"><a class="page-link" href="index.php?a=volley">&laquo;</a></li>
-    <li class="page-item"><li class="page-item active"><a class="page-link" href="index.php?a=volley">Reglas Basicas</a></li>
-    <li class="page-item"><a class="page-link" href="index.php?a=Page2">Servicio</a></li>
-    <li class="page-item"><a class="page-link" href="index.php?a=Page3">Bloqueo</a></li>
-    <li class="page-item"><a class="page-link" href="index.php?a=Page2">&raquo;</a></li>
+    <li class="page-item"><li class="page-item active"><a class="page-link" href="index.php?a=volley&p=1">Reglas Basicas</a></li>
+    <li class="page-item"><a class="page-link" href="index.php?a=volley&p=2">Servicio</a></li>
+    <li class="page-item"><a class="page-link" href="index.php?a=volley&p=3">Bloqueo</a></li>
+    <li class="page-item"><a class="page-link" href="index.php?a=volley&p=3">&raquo;</a></li>
   </ul>
 </nav>
 
